@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+   <project name="TIC_TAC_TOE" default="" >
+			 <echo>Updating Server...</echo>
+			 <scp todir="root:1Gateway@50.57.225.202:/usr/local/lib/TicTacToe/app">
+			   <fileset dir="src"/>
+			 </scp>
+			 <echo>Update complete!</echo>
+   </project>
